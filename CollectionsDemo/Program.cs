@@ -19,7 +19,7 @@ namespace CollectionsDemo
 
             Names.Remove("Donald Knuth");
 
-
+            DisplayNames(Names);
 
             Console.WriteLine("Count of list: " + Names.Count.ToString());
             Console.WriteLine("Capacity of list: " + Names.Capacity.ToString());
